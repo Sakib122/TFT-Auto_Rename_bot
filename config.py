@@ -19,11 +19,11 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "1701363")
     API_HASH  = os.environ.get("API_HASH", "df8beceb7a16ccc6d128522b30845a20")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7967050798:AAHh_MTm8J0eh3k-eLGSl3qK1NW-AIiQu8E") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Speedwolf1")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","imsakib")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://imsakib:Sakib100@cluster0.ajmvbbb.mongodb.net/")
     PORT = os.environ.get("PORT", "8050")
     OWNER = int(os.environ.get("OWNER", "5169962212"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
@@ -32,8 +32,8 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
     
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "moviebackupbd2025").split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002201298270" ))
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "log2channel2025").split(',')
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003573920353" ))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
     # wes response configuration     
@@ -55,14 +55,14 @@ class Txt(object):
 
 <blockquote><b>Bot Is Made By :</b> @Tech_Freak_Tamil</blockquote>"""
 
-    ABOUT_TXT = f"""<blockquote><b>😈 My Name :</b> <a href='https://t.me/Tech_Freak_Tamil'>Auto Renamer bot ⚡</a>
+    ABOUT_TXT = f"""<blockquote><b>😈 My Name :</b> <a href='https://t.me/moviebackupbd2025'>Auto Renamer bot ⚡</a>
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Tech_Freak_Tamil'>TFT BOTS</a>
-<b>🛡️ Disscussion :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>
+<b>📢 Channel :</b> <a href='https://t.me/moviebackupbd2025'>TFT BOTS</a>
+<b>🛡️ Disscussion :</b> <a href='https://t.me/earnsmartbanglachat'>TFT Discussion</a></blockquote>
     
-<blockquote><b>😈 Bot Made By :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>"""
+<blockquote><b>😈 Bot Made By :</b> <a href='https://t.me/moviebackupbd2025'>TFT Discussion</a></blockquote>"""
 
     HELP_TXT = """<blockquote>
 🌌 <b><u>How To Set Thumbnail</u></b>
